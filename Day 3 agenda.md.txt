@@ -1,0 +1,105 @@
+# Clinical record modelling workshop Session 3
+
+## Agenda
+
+This will be a very open session, focussed on some real use cases and examples from the current Christie portal app and future developments e.g. Patient PROMS
+
+| Topic                                    | Dtn. | Start | End   |
+| ---------------------------------------- | ---- | ----- | ----- |
+| Introduction to current Christie portal  | 40   | 09:00 | 09:40 |
+| Break                                    |  5   | 09:40 | 09:45 |
+| Cervical Cancer PROMS Form               | 45   | 09:45 | 10:30 |
+| Break                                    | 15   | 09:45 | 10:00 |
+| Cervical Cancer MDT Design               | 60   | 10:00 | 11:00 |
+| Break                                    | 15   | 11:00 | 11:15 |
+| Cervical Cancer MDT Template build       | 60   | 11:15 | 12:15 |
+| Lunch break                              | 45   | 12:15 | 13:00 |
+| Cervical Cancer MDT Template form        | 45   | 13:00 | 13:45 |
+| Break                                    | 10   | 13:45 | 13:55 |
+| Wash-up			                         | 50   | 13:55 | 14:45 |
+
+
+
+### Possible topics
+
+1. Working with the Christie Cervical Cancer MDT example.
+2. Building a Cervical Cancer PROMS template
+3. Treatment Summary template
+   
+
+As well as building the data models we will make a start on building some forms from the templates.
+
+## Practical session - Getting started
+
+### Archetype Designer
+
+1. Open a web browser – Chrome or Firefox are best
+
+2. Go to [https://tools.openehr.org/designer](https://tools.openehr.org/designer/) 
+(Best if you open this link in a new tab).
+
+3. Login: 		`freshehr_training`	
+   Password: 	`ad4freshtraining`
+
+
+### Better Studio
+
+1. Open a web browser – Chrome or Firefox are best
+
+2. Go to [https://tools-docker.app.better.care/studio-stage/](https://tools-docker.app.better.care/studio-stage/) 
+
+3. Create your own login
+
+4. Go to Administration then `Add Project`
+
+5. Under 'Add Project' add the following settings
+
+EHR Server Authorisation type: `basic`
+
+Project name: `freshEHR Training`
+
+EHR Server url: `https://thinkehr-app.c4h.code4health.org/`
+
+EHR Server password: `$2a$10$619ki`
+
+Terminology Adapter url: Leave this alone!!
+
+Bypass server should be ON (Blue)
+
+Now press `Add project`
+
+You will now have a project pointing at the freshEHR training CDR.
+
+## CKMs
+
+[Apperta UK](https://ckm.apperta.org/ckm/)
+
+[International](https://ckm.openehr.org/ckm)
+
+[HighMed Germany](https://ckm.highmed.org/ckm/projects/867.116.5)
+
+[Arketyper Norway](https://arketyper.no/ckm/)
+
+
+## Cervical Cancer MDT
+
+[Cervical Cancer MDT Mindmap XMind](other/Cervical%20cancer%20MDT.xmind)
+[Cervical Cancer MDT Mindmap PDF](other/Cervical%20cancer%20MDT.pdf)
+
+[MDT Referral example](https://ckm.apperta.org/ckm/templates/1051.57.73)
+
+## Cervical Cancer PROMS
+
+[Feasibility and acceptability of the use of patient-reported outcome measures in the delivery of nurse-led, supportive care to women with cervical cancer.](https://core.ac.uk/reader/161513682?utm_source=linkout)
+
+[CCCQ Cervical Cancer Concerns Questionnaire ](https://www.academia.edu/14860709/The_psychosocial_impact_of_cervical_cancer_among_affected_women_and_their_partners)
+
+
+## Treatment Summary
+
+[NES Treatment summary](https://ckm.apperta.org/ckm/templates/1051.57.281)
+
+[MacMillan Holistic Assessment](https://ckm.apperta.org/ckm/templates/1051.57.272)
+
+
+
